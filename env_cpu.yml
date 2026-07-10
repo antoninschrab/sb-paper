@@ -1,0 +1,16 @@
+name: sb-env
+channels:
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.14
+  - pip
+  - ipywidgets
+  - setuptools
+  - jupyterlab
+  - matplotlib
+  - tqdm
+  - tornado
+  - nodejs
+  - pip:
+      - "jax==0.10.1"
